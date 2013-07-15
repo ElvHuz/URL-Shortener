@@ -1,0 +1,450 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.8ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-25 20:29:50 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.8ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 08:37:32 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 219ms (Views: 217.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 08:38:37 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 168ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 08:40:21 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 08:40:56 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 133ms (Views: 132.2ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-26 08:40:56 +0100
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 08:44:12 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 142ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-26 08:44:12 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  Rendered shortener/create.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 09:55:45 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 263ms (Views: 261.3ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-26 09:55:46 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.1ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 26 Mar 2013 08:55:46 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "q9s7m"], ["updated_at", Tue, 26 Mar 2013 08:55:46 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (454.9ms)
+Completed 200 OK in 458ms (Views: 440.5ms | ActiveRecord: 17.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 09:58:38 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-26 09:58:39 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (11.8ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 26 Mar 2013 08:58:39 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "bf3k8"], ["updated_at", Tue, 26 Mar 2013 08:58:39 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (248.3ms)
+Completed 200 OK in 251ms (Views: 233.6ms | ActiveRecord: 16.7ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-26 09:59:59 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 129ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-26 09:59:59 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.6ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 26 Mar 2013 08:59:59 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "6odp0"], ["updated_at", Tue, 26 Mar 2013 08:59:59 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (252.0ms)
+Completed 200 OK in 255ms (Views: 236.7ms | ActiveRecord: 17.7ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (15.1ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 17:53:19 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 219ms (Views: 217.7ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 17:53:19 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.3ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (93.5ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 30 Mar 2013 16:53:20 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "wkghe"], ["updated_at", Sat, 30 Mar 2013 16:53:20 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (463.0ms)
+Completed 200 OK in 465ms (Views: 354.7ms | ActiveRecord: 110.4ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 17:55:58 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 101ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 17:55:58 +0100
+Compiled bootstrap_and_overrides.css  (1914ms)  (pid 7614)
+Compiled shortener.css  (170ms)  (pid 7614)
+Compiled application.css  (2335ms)  (pid 7614)
+Served asset /application.css - 200 OK (2541ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 17:56:01 +0100
+Compiled jquery.js  (3ms)  (pid 7614)
+Compiled jquery_ujs.js  (0ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-tab.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-popover.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-button.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (2ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (8ms)  (pid 7614)
+Compiled twitter/bootstrap/bootstrap-affix.js  (1ms)  (pid 7614)
+Compiled twitter/bootstrap.js  (728ms)  (pid 7614)
+Compiled bootstrap.js  (332ms)  (pid 7614)
+Compiled shortener.js  (1ms)  (pid 7614)
+Compiled application.js  (1442ms)  (pid 7614)
+Served asset /application.js - 200 OK (1573ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 17:56:05 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (9.9ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 16:56:06 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "y9t9m"], ["updated_at", Sat, 30 Mar 2013 16:56:06 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (472.7ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (768.9ms)
+Completed 200 OK in 774ms (Views: 222.8ms | ActiveRecord: 550.6ms)
+  [1m[36m (202.1ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (92.6ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 17:56:39 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (61.6ms)
+Completed 200 OK in 152ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 17:56:39 +0100
+Served asset /application.css - 200 OK (14ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 17:56:39 +0100
+Served asset /application.js - 200 OK (33ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 17:56:41 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (75.9ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 16:56:41 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "wgcsb"], ["updated_at", Sat, 30 Mar 2013 16:56:41 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (159.3ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (465.7ms)
+Completed 200 OK in 471ms (Views: 229.1ms | ActiveRecord: 241.8ms)
+  [1m[36m (180.0ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (158.8ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 17:58:28 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (89.8ms)
+Completed 200 OK in 175ms (Views: 174.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 17:58:28 +0100
+Served asset /application.css - 200 OK (17ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 17:58:28 +0100
+Served asset /application.js - 200 OK (118ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 17:58:29 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (68.6ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 16:58:30 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "r2quy"], ["updated_at", Sat, 30 Mar 2013 16:58:30 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (210.8ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (480.0ms)
+Completed 200 OK in 486ms (Views: 200.6ms | ActiveRecord: 284.9ms)
+  [1m[36m (181.9ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (122.8ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 17:59:01 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 17:59:01 +0100
+Served asset /application.css - 200 OK (10ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 17:59:01 +0100
+Served asset /application.js - 200 OK (104ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 17:59:02 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (12.6ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 16:59:03 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "8a21c"], ["updated_at", Sat, 30 Mar 2013 16:59:03 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (173.1ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (419.1ms)
+Completed 200 OK in 424ms (Views: 232.6ms | ActiveRecord: 191.1ms)
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:02:20 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:02:20 +0100
+Served asset /application.css - 200 OK (11ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:02:20 +0100
+Served asset /application.js - 200 OK (85ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:02:21 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  Rendered shortener/create.html.erb within layouts/application (197.2ms)
+Completed 200 OK in 202ms (Views: 195.8ms | ActiveRecord: 5.8ms)
+  [1m[35m (186.9ms)[0m  DELETE FROM "shortened_urls";
+  [1m[36m (96.7ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'shortened_urls';[0m
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:04:15 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 88ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:04:16 +0100
+Served asset /application.css - 200 OK (30ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:04:16 +0100
+Served asset /application.js - 200 OK (141ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:04:17 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (85.5ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:04:17 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "v5s5f"], ["updated_at", Sat, 30 Mar 2013 17:04:17 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (185.2ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (487.6ms)
+Completed 200 OK in 491ms (Views: 214.0ms | ActiveRecord: 276.2ms)
+  [1m[36m (188.0ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (140.5ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:05:27 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:05:27 +0100
+Served asset /application.css - 200 OK (10ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:05:27 +0100
+Served asset /application.js - 200 OK (85ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:05:28 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (83.9ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:05:29 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "ku2z9"], ["updated_at", Sat, 30 Mar 2013 17:05:29 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (330.9ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (619.0ms)
+Completed 200 OK in 622ms (Views: 201.0ms | ActiveRecord: 420.3ms)
+  [1m[36m (423.0ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (445.5ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:07:17 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 88ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:07:17 +0100
+Served asset /application.css - 200 OK (11ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:07:17 +0100
+Served asset /application.js - 200 OK (117ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:07:18 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (68.2ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:07:18 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "d2yxu"], ["updated_at", Sat, 30 Mar 2013 17:07:18 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (283.0ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (571.9ms)
+Completed 200 OK in 577ms (Views: 218.8ms | ActiveRecord: 357.5ms)
+  [1m[36m (131.1ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (87.3ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:08:54 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 89ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:08:54 +0100
+Served asset /application.css - 200 OK (18ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:08:54 +0100
+Served asset /application.js - 200 OK (103ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:08:55 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (66.7ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:08:55 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "rpmu6"], ["updated_at", Sat, 30 Mar 2013 17:08:55 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (296.4ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (566.1ms)
+Completed 200 OK in 571ms (Views: 202.2ms | ActiveRecord: 368.5ms)
+  [1m[36m (190.6ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (88.8ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:09:57 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:09:57 +0100
+Served asset /application.css - 200 OK (8ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:09:57 +0100
+Served asset /application.js - 200 OK (85ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:09:59 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.8ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (81.4ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:09:59 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "12etw"], ["updated_at", Sat, 30 Mar 2013 17:09:59 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (159.2ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (498.5ms)
+Completed 200 OK in 502ms (Views: 252.7ms | ActiveRecord: 248.4ms)
+  [1m[36m (188.8ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (94.8ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:11:40 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 88ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:11:41 +0100
+Served asset /application.css - 200 OK (15ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:11:41 +0100
+Served asset /application.js - 200 OK (91ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:11:42 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (65.7ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:11:42 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "virs8"], ["updated_at", Sat, 30 Mar 2013 17:11:42 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (171.5ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (486.2ms)
+Completed 200 OK in 491ms (Views: 247.9ms | ActiveRecord: 242.9ms)
+  [1m[36m (190.1ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (85.3ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:12:11 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-30 18:12:11 +0100
+Served asset /application.css - 200 OK (8ms)
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-30 18:12:11 +0100
+Served asset /application.js - 200 OK (115ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:12:12 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[36mShortener::ShortenedUrl Load (0.3ms)[0m  [1mSELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (70.6ms)[0m  [1mINSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Sat, 30 Mar 2013 17:12:12 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "vbk1r"], ["updated_at", Sat, 30 Mar 2013 17:12:12 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[35m (229.6ms)[0m  commit transaction
+  Rendered shortener/create.html.erb within layouts/application (593.1ms)
+Completed 200 OK in 598ms (Views: 291.9ms | ActiveRecord: 305.7ms)
+  [1m[36m (128.9ms)[0m  [1mDELETE FROM "shortened_urls";[0m
+  [1m[35m (95.3ms)[0m  DELETE FROM sqlite_sequence where name = 'shortened_urls';
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:13:59 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (54.7ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:13:59 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.3ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.9ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 30 Mar 2013 17:14:00 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "a9bh0"], ["updated_at", Sat, 30 Mar 2013 17:14:00 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (263.4ms)
+Completed 200 OK in 266ms (Views: 247.6ms | ActiveRecord: 18.1ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:15:09 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 129ms (Views: 128.4ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:15:09 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.1ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 30 Mar 2013 17:15:09 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "jm8vv"], ["updated_at", Sat, 30 Mar 2013 17:15:09 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (238.5ms)
+Completed 200 OK in 241ms (Views: 223.5ms | ActiveRecord: 17.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:15:56 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (54.5ms)
+Completed 200 OK in 129ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:15:57 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.1ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 30 Mar 2013 17:15:57 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "25gpt"], ["updated_at", Sat, 30 Mar 2013 17:15:57 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (236.1ms)
+Completed 200 OK in 239ms (Views: 221.4ms | ActiveRecord: 16.9ms)
+  [1m[35m (0.3ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:16:35 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (54.2ms)
+Completed 200 OK in 130ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:16:35 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.0ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 30 Mar 2013 17:16:36 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "epobp"], ["updated_at", Sat, 30 Mar 2013 17:16:36 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (234.6ms)
+Completed 200 OK in 237ms (Views: 219.9ms | ActiveRecord: 16.6ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/shortener/create" for 127.0.0.1 at 2013-03-30 18:17:21 +0100
+Processing by ShortenerController#create as HTML
+  Rendered shortener/create.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+Started POST "/shortener/create?method=get" for 127.0.0.1 at 2013-03-30 18:17:22 +0100
+Processing by ShortenerController#create as HTML
+  Parameters: {"utf8"=>"✓", "url"=>"dealush.com", "button"=>"", "method"=>"get"}
+  [1m[35mShortener::ShortenedUrl Load (0.2ms)[0m  SELECT "shortened_urls".* FROM "shortened_urls" WHERE "shortened_urls"."url" = 'http://dealush.com/' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (12.0ms)[0m  INSERT INTO "shortened_urls" ("created_at", "owner_id", "owner_type", "unique_key", "updated_at", "url", "use_count") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Sat, 30 Mar 2013 17:17:22 UTC +00:00], ["owner_id", nil], ["owner_type", nil], ["unique_key", "13eir"], ["updated_at", Sat, 30 Mar 2013 17:17:22 UTC +00:00], ["url", "http://dealush.com/"], ["use_count", 0]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  Rendered shortener/create.html.erb within layouts/application (236.2ms)
+Completed 200 OK in 239ms (Views: 221.5ms | ActiveRecord: 16.8ms)
+  [1m[35m (0.2ms)[0m  rollback transaction

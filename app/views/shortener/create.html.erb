@@ -1,0 +1,15 @@
+<div class="hero-unit">
+<h2>URL-Shortener</h2>
+
+<% if @url %>
+<p class="alert alert-success">
+	Link successfully created! Here is you Link for <%= @url %>: <br /> 
+	<%= short_url(@url) %>
+</p>
+<% end %>
+<%= form_tag(controller: "shortener", action: "create", method: "get") do %>
+  <%= label_tag(:url, "Create Link for:", :class => "label") %>
+  <%= text_field_tag(:url) %> <br />
+  <%= button_tag("Create", :class => "btn btn-large btn-primary") %>
+<% end %>
+</div>
